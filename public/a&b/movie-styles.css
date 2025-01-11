@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: bisque;
+	margin: 0;
+}
+z
+h1, h2, h3, h4, h5, h6 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+h1 {font-size: 2.3em;} h2 {color: blue; text-shadow:2px 2px 2px royalblue; font-style: italic; font-size: 1.8em;} h3 {font-size: 1.3em;} h4 {font-size: 1em;}  h5 {font-size: .83em;} h6 {font-size: .67em;}
+
+.soul {
+		color: blue; 
+		text-shadow:2px 2px 2px royalblue; 
+		font-style: italic; 
+		font-size: 1.8em;
+}
+.flexbox {
+	display: flex;
+	justify-content: center;
+	background-color: bisque;
+}
+img {
+	width: 100%;
+	display: flex;
+	float: left;
+	
+}
+.card {
+	background-color: bisque !important;
+	--bs-card-border-color: none !important;
+}
+
+/* header */
+
+.wvy-underline {
+	text-decoration: underline 2px black wavy;
+}
+.underline {
+	text-decoration: underline;
+	color: dimgrey;
+}
+.header {
+	text-align: center;
+	background: bisque;
+	padding: 20px;
+}
+
+/* 2 column containers */
+
+.card-sect {
+	display: grid;
+	
+}
+
+.row {
+	padding: 30px;
+	border: 4px outset blue;
+	border-radius: 10px;
+	display:grid;
+
+	background-color: lightblue;
+	margin: 20px;
+	box-shadow: 9px 9px 9px 1px royalblue;
+
+}
+.image-container {
+	border: 3px outset blue;
+	border-radius: 10px;
+	margin: auto;
+	overflow: scroll;
+
+
+}
+
+
+.clm {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+
+.alt-clm {
+	width: 50%;
+	float: right;
+	padding: 10px;
+}
+
+
+
+
+.fun{
+	font-family: cursive;
+	font-weight: bold;
+	color: red;
+	text-decoration: underline 2px green;
+}
+.green{
+	color: green;
+}
+.moonwind{
+	font-family: fantasy;
+	font-weight: 800;
+	color: royalblue;
+	text-decoration: overline underline dashed 2px;
+	cursor: grab;
+}
+.moonwind:active {
+	cursor: grabbing;
+}

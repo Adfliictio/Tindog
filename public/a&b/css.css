@@ -1,0 +1,51 @@
+.card-sect {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns:1fr 1fr 1fr;
+	border: 8px solid red;
+	gap: 20px;
+	margin: 0 auto;
+	}
+
+.row {
+	border: 4px solid blue;
+	width: 99%;
+	background-color: lightblue;
+
+}
+
+.clm {
+	border: 4px solid green;
+	text-align: center;
+
+}
+
+.image-container {
+overflow: scroll;
+height: 34vh;
+float: left;
+border: 7px groove white;
+
+
+}
+img {
+
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+
+}
+
+
+.alt-clm {
+
+	text-align: center;
+
+}
+
+.card-sect .hide {
+	display: none;
+}
+
+
+

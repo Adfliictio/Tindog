@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brandon's Websites</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+	 p, h2 {
+	 	color: white;
+	 }
+	 h2 {
+	 	font-weight: bold;
+	 	 font-family: sans-serif;
+
+	 
+	 }
+	 #header1 {
+	 	background-image: url(./public/html/images/png-logo/logo-bland.png);
+	 	background-size: 2rem;
+	 	background-color: bisque;
+	 	border: groove 5px darkgoldenrod;
+   width: 100% !important;
+   border-radius: 3%;
+	 
+	 }
+ 	.flat {
+ 		background-color: bisque;
+ 		margin-left: 12%;
+ 		margin-right: 12%;
+    border: inset 4px bisque;
+     border-bottom: groove 4px bisque;
+     border-right: groove 4px bisque;
+
+ 	}
+ 	.flat p {
+ 		margin-bottom: 0;
+ 	}
+img {
+	border: groove 5px darkgoldenrod;
+
+}
+.jc-cntr {
+  justify-content:center;
+}
+.card1 {
+border:4px groove darkgoldenrod;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  
+}
+.card {
+  border-radius: 3%;
+  max-width :25em;
+}
+
+.card:hover {
+  transition: .1s ease-in-out .1s;
+
+ -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btn:hover {
+-webkit-box-shadow: 0px 0px 20px 0px rgba(168,160,10,0.64);
+-moz-box-shadow: 0px 0px 20px 0px rgba(168,160,10,0.64);
+box-shadow: 0px 0px 20px 0px rgba(168,160,10,0.64);
+}
+
+.outline {
+  border: 4px groove darkgoldenrod;
+}
+body {
+  background-image: url();
+
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<header class="container ">
+<nav style="background-color:black;" class="outline navbar navbar-dark fixed-top" >
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">Brandon's Websites</a>
+    <button style="border: 4px groove darkgoldenrod; background-color:bisque;" class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span style=" border-radius: 10%; background-color: darkgoldenrod;" class="navbar-toggler-icon "></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Brandon's Websites</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./indexx.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sites
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="./public/Projects/Tindog-Project/index.html">"TinDog!"</a></li>
+              <li><a class="dropdown-item" href="./public/a&b/a&bmovies.html">"A&B Movies"</a></li>           
+              <li><a class="dropdown-item" href="./public/html/pages/Intro.html">"Kid Shifu's Site"</a></li>
+              <li>
+                <a class="dropdown-item" href="./indexxx">"This (Old) Site!"</a>
+              </li>
+               <hr class="dropdown-divider">
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<div class="gradient-background bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <div class="container gradient-background" id="header1" >
+      
+      <div class="flat"><h1 class="display-5 fw-bold text-dark  ">Behold!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 text-dark">A Shitty List Of Shitty Sites Scrounged Together By Shifu</p>
+        </div></div></div>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+         <div class="container">
+
+<div  class="row mt-4 jc-cntr gap-4 ">
+     	
+     	<div class="card1 card bg-dark col-lg-4" >
+        <img src="./assets/images/tindog.png" class="mx-auto mb-4 mt-4 bd-placeholder-img rounded-circle" width="140" height="140">
+        
+        <h2 class="fw-normal">"Tindog?" Site</h2>
+        <p>Some Weird Shit Tbh. <br>
+        	But It's In The Course! <br>
+        	ᕙ(░ಥ╭͜ʖ╮ಥ░)━☆ﾟ.*･｡ﾟ
+        	<br>
+        </p>
+        <p><a class=" btn btn-warning" href="./public/Projects/Tindog-Project/index.html">View Page! »</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+
+      <div class="card1 card bg-dark col-lg-4">
+        <img src="./assets/images/a&bmovies.png" class="bd-placeholder-img rounded-circle mb-4 mt-4 mx-auto" width="140" height="140" >
+        
+        <h2 class="fw-normal">"A&B Movies"</h2>
+        <p>Constantly A "W.I.P", <br>
+        	Updated Periodically With 'Movies Watched' & A "To-Watch List".</p>
+        <p><a class="btn btn-warning" href="./public/a&b/a&bmovies.html">View Page »</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+
+      <div class="card1 card bg-dark col-lg-4">
+        <img src="./assets/images/shifu.png" class="mx-auto bd-placeholder-img rounded-circle mb-4 mt-4" width="140" height="140">
+        
+        <h2 class="fw-normal">"Shifu's Site"</h2>
+        <p>A Conglomerate Mess<br>
+        Containing "Kid Shifu's" Music & Videos.
+    </p>
+        <p><a class="btn btn-warning" href="./public/html/pages/Intro.html">View Page »</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+      
+      <div  class="card1 card bg-dark col-lg-4">
+        <img src="./assets/images/old-site.png" class="mx-auto mt-4 mb-4 bd-placeholder-img rounded-circle" width="140" height="140"  >
+        
+        <h2 class="fw-normal">"This" Old Site</h2>
+        <p>See How This Page USED To Look <br>
+        Before I Learned 'Bootstrap'! </p>
+        <p><a class="btn btn-warning" href="./indexxx.html">View (Old) Page! »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+</div>
+ <!--  -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <footer  class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Brandon Price</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+     
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/kid_shifu/"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg></a></li>
+    </ul>
+  </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
